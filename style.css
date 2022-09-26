@@ -23,3 +23,6 @@
     flex-direction: column;
     row-gap: 10px;
 }
+.logIn {
+    color: red;
+}
