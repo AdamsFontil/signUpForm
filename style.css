@@ -104,3 +104,7 @@ span {
 .lastSection {
     padding: 15px 0;
 }
+input :focus {
+    border-color: red;
+    background-color: brown;
+}
