@@ -17,6 +17,7 @@
     <span class="material-symbols-outlined">
         play_arrow 2Chainz
     </span>
+    <div class="chainz">chainz</div>
     <img src="photos/josh-gordon-2GKLqlJ-PcU-unsplash.jpg" alt="Picture of 2Chainz, a really popular rap artist, especially if we're talking about the 2010s">
     <figcaption>Photo by <a href="https://unsplash.com/@joshgordon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Josh Gordon</a> on <a href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </figcaption>
@@ -37,18 +38,24 @@
 
         </div>
         <div class="actualForm">
-            <label for="fName">First Name</label>
-            <input type="text" name="fName" id="fName">
-            <label for="lName">Last Name</label>
-            <input type="text" name="lName" id="lName">
-            <label for="email">eMail</label>
-            <input type="email" name="email" id="email">
-            <label for="phone">Phone Number</label>
-            <input type="tel" name="phone" id="phone">
-            <label for="pw">PassWord</label>
-            <input type="text" name="pw" id="pw" inputmode="numeric">
-            <label for="confirmpw">Confirm PassWord</label>
-            <input type="text" name="confirmpw" id="confirmpw" inputmode="numeric">
+           <div class="row1">
+            <div><label for="fName">First Name</label>
+            <input type="text" name="fName" id="fName"> </div>
+            <div><label class="left" for="lName">Last Name</label>
+            <input class="left" type="text" name="lName" id="lName"></div>
+           </div>
+           <div class="row2">
+            <div><label for="email">eMail</label>
+            <input type="email" name="email" id="email"></div>
+            <div><label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone"></div>
+           </div>
+           <div class="row3">
+            <div><label for="pw">PassWord</label>
+            <input type="text" name="pw" id="pw" inputmode="numeric"></div>
+            <div><label for="confirmpw">Confirm PassWord</label>
+            <input type="text" name="confirmpw" id="confirmpw" inputmode="numeric"></div>
+            </div>
         </div>
         <div>
             <button class="signUp">Create Account</button>
